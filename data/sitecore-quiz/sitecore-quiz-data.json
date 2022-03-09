@@ -1,0 +1,1529 @@
+{
+  "questions" : [
+    {
+    "id": 0,
+    "answerType": "radio",
+    "question": "When you are working with a Sitecore.Data.Items.Item object, which method should you use to get a list of all its children?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": ".GetChildren()"
+      },
+      {
+        "id": "A2",
+        "option": "Axes.GetChild()"
+      },
+      {
+        "id": "A3",
+        "option": "Axes.GetDescendants()"
+      },
+      {
+        "id": "A4",
+        "option": "Database.GetChildren()"
+      }
+    ],
+    "correctAnswer" : "A1",
+    "feedback": "The GetChildren() method returns a list of an item's children in the form of a ChildList collection."
+  },
+  {
+    "id": 1,
+    "answerType": "radio",
+    "question": "What is a Sitecore item?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "A page the visitor views on the website"
+      },
+      {
+        "id": "A2",
+        "option": "An entity storing the information used to find the content in the file system"
+      },
+      {
+        "id": "A3",
+        "option": "The construct Sitecore uses to store data"
+      },
+      {
+        "id": "A4",
+        "option": "A definition for the type of date that you want to store"
+      }
+    ],
+    "correctAnswer" : "A3",
+    "feedback": "A Sitecore item is what Sitecore uses to store data."
+  },
+  {
+    "id": 2,
+    "answerType": "radio",
+    "question": "When you patch in changes to the Sitecore.config file, how can you control the order in which your changes are applied?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "In App_Config/, create <order> entries in the Sitecore.Patch.config file"
+      },
+      {
+        "id": "A2",
+        "option": "In App_Config/Include, use a naming convention and sub-folders for config files"
+      },
+      {
+        "id": "A3",
+        "option": "In App_Config/Include/Project, add your config files"
+      },
+      {
+        "id": "A4",
+        "option":  "In Web.Config, manually insert the changes in order"
+      }
+    ],
+    "correctAnswer" : "A2",
+    "feedback": "Recommended practice is to use the App_Config/Include folder, where folders and files are loaded alphabetically."
+  },
+  {
+    "id": 3,
+    "answerType": "radio",
+    "question": "Select the name of the Sitecore component-based architecture guidelines from the list.",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Habitat"
+      },
+      {
+        "id": "A2",
+        "option": "Adaptive"
+      },
+      {
+        "id": "A3",
+        "option": "Bootstrap"
+      },
+      {
+        "id": "A4",
+        "option":  "Helix"
+      }
+    ],
+    "correctAnswer" : "A4",
+    "feedback": "Helix is a set of overall design principles and conventions for Sitecore development.Throughout the Helix documentation you will find various examples from Habitat."
+  },
+  {
+    "id": 4,
+    "answerType": "radio",
+    "question": "Select the name of the Sitecore component-based architecture guidelines from the list.",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "/App_Config/Include/z.config"
+      },
+      {
+        "id": "A2",
+        "option": "/App_Config/Include/b/b.config"
+      },
+      {
+        "id": "A3",
+        "option": "/App_Config/Include/b/c.config"
+      },
+      {
+        "id": "A4",
+        "option":  "/App_Config/Include/c/a.config"
+      }
+    ],
+    "correctAnswer" : "A4",
+    "feedback": "Config files are read in alphabetical order and it overrides settings from the previous one."
+  },
+  {
+    "id": 5,
+    "answerType": "radio",
+    "question": "What happens if the same field name is used in two separate inherited data templates?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "The field will be merged into one."
+      },
+      {
+        "id": "A2",
+        "option": "The field will be duplicated."
+      },
+      {
+        "id": "A3",
+        "option": "Throws a duplicate field error."
+      },
+      {
+        "id": "A4",
+        "option":  "It will rename the second filed with index."
+      }
+    ],
+    "correctAnswer" : "A2",
+    "feedback": "The field name will be duplicated. This is not recommended practice."
+  },
+  {
+    "id": 6,
+    "answerType": "radio",
+    "question": "What field type can I use with Rendering Parameters?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Simple field types (e.g. Text, Link, Date) and list types (e.g. Droplist, Multilist, Checklist)"
+      },
+      {
+        "id": "A2",
+        "option": "All field types"
+      },
+      {
+        "id": "A3",
+        "option": "All fied types except custom fields"
+      },
+      {
+        "id": "A4",
+        "option":  "Only custom field types"
+      }
+    ],
+    "correctAnswer" : "A2",
+    "feedback": "Rendering parameters can use all field types."
+  },
+  {
+    "id": 7,
+    "answerType": "radio",
+    "question": "What does it do when you make an item bucketable?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Become retrievable by using the Sitecore Search engine."
+      },
+      {
+        "id": "A2",
+        "option": "Children of the item can be bulk-edited."
+      },
+      {
+        "id": "A3",
+        "option": "The item can be only used as a folder."
+      },
+      {
+        "id": "A4",
+        "option":  "The item is hidden."
+      }
+    ],
+    "correctAnswer" : "A4",
+    "feedback": "Bucketable is the ability of an item or template to be stored or hidden in buckets or Item Buckets. All the Sitecore items are retrievable by the Sitecore search engine."
+  },
+  {
+    "id": 8,
+    "answerType": "radio",
+    "question": "How can I open a bucketable item?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Use the Sitecore search functionality to locate and open the item."
+      },
+      {
+        "id": "A2",
+        "option": "Right click the item and select Open."
+      },
+      {
+        "id": "A3",
+        "option": "Select view item option."
+      },
+      {
+        "id": "A4",
+        "option":  "Use Sitecore Bucket API command."
+      }
+    ],
+    "correctAnswer" : "A1",
+    "feedback": "If you want to open a bucketable item that is placed in an item bucket, you must click the item bucket and use the Sitecore search functionality to locate and open the item."
+  },
+  {
+    "id": 9,
+    "answerType": "radio",
+    "question": "When I made Template bucketable, the existing items are still not hidden. What should I do?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Use Sitecore Bucket API command, Bucket-item."
+      },
+      {
+        "id": "A2",
+        "option": "Sync the existing items."
+      },
+      {
+        "id": "A3",
+        "option": "Enable item bucketable options in Template config."
+      },
+      {
+        "id": "A4",
+        "option":  "Use Template Manager and update Bucketable Settings in the Configure tab."
+      }
+    ],
+    "correctAnswer" : "A2",
+    "feedback": "Once you sync the items, new items based on that template automatically work as buckets without any further action."
+  },
+  {
+    "id": 10,
+    "answerType": "radio",
+    "question": "How does Sitecore support one of the CMS pillars, Presentation?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Templates"
+      },
+      {
+        "id": "A2",
+        "option": "Layouts and components"
+      },
+      {
+        "id": "A3",
+        "option": "Items"
+      },
+      {
+        "id": "A4",
+        "option":  "Experience Editor"
+      }
+    ],
+    "correctAnswer" : "A2",
+    "feedback": "Data definition: Templates, Content: Items, Presentation: layouts and components."
+  },
+  {
+    "id": 11,
+    "answerType": "radio",
+    "question": "What should you define in a template?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Fields, Field Sections, Icons and Base Templates"
+      },
+      {
+        "id": "A2",
+        "option": "Fields, Field Sections, Icons and Standard Templates"
+      },
+      {
+        "id": "A3",
+        "option": "Fields, Field Sections, Favicons and Template Name"
+      },
+      {
+        "id": "A4",
+        "option":  "Template Name, Fields, Field Sections, Display Icon"
+      }
+    ],
+    "correctAnswer" : "A1",
+    "feedback": "We definitely need fields, field sections and base template. Icon is highly recommended practice."
+  },
+  {
+    "id": 12,
+    "answerType": "radio",
+    "question": "Which field type do I use to store formatted html",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Rich text field"
+      },
+      {
+        "id": "A2",
+        "option": "HTML field"
+      },
+      {
+        "id": "A3",
+        "option": "HTML Format field"
+      },
+      {
+        "id": "A4",
+        "option":  "Raw HTML field"
+      }
+    ],
+    "correctAnswer" : "A1",
+    "feedback": "Rich text field can be used to store formatted html."
+  },
+  {
+    "id": 13,
+    "answerType": "radio",
+    "question": "What is the name of the template all templates should inherit from?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Base Templates"
+      },
+      {
+        "id": "A2",
+        "option": "Parent Templates"
+      },
+      {
+        "id": "A3",
+        "option": "Standard Templates"
+      },
+      {
+        "id": "A4",
+        "option":  "The Templates"
+      }
+    ],
+    "correctAnswer" : "A3",
+    "feedback": "It is called Standart Templates. It is a good idea to create _Base Template from Standard Template and inherit from it for extensibility."
+  },
+  {
+    "id": 14,
+    "answerType": "radio",
+    "question": "Where do you define default and initial values?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Standard Values"
+      },
+      {
+        "id": "A2",
+        "option": "Base Templates"
+      },
+      {
+        "id": "A3",
+        "option": "Init Values"
+      },
+      {
+        "id": "A4",
+        "option":  "Rendering Parameters"
+      }
+    ],
+    "correctAnswer" : "A1",
+    "feedback": "Standard Values can define default and initial values."
+  },
+  {
+    "id": 15,
+    "answerType": "radio",
+    "question": "Where should I set insert options as a best practice?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Standard Values"
+      },
+      {
+        "id": "A2",
+        "option": "Content Item"
+      },
+      {
+        "id": "A3",
+        "option": "Template for the item"
+      },
+      {
+        "id": "A4",
+        "option":  "Rendering configuration option"
+      }
+    ],
+    "correctAnswer" : "A1",
+    "feedback": "In the Standard Values, so they are applied as a default to newly created items."
+  },
+  {
+    "id": 16,
+    "answerType": "radio",
+    "question": "How can I use placeholders inside of placeholders?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Use dynamic placeholder."
+      },
+      {
+        "id": "A2",
+        "option": "Add allowed control to the placeholder."
+      },
+      {
+        "id": "A3",
+        "option": "Add placeholder in the Placeholder Settings."
+      },
+      {
+        "id": "A4",
+        "option":  "This cannot be done directly."
+      }
+    ],
+    "correctAnswer" : "A4",
+    "feedback": "Cannot do it directly. You can use components inside of placeholders that define other placeholders"
+  },
+  {
+    "id": 17,
+    "answerType": "radio",
+    "question": "What do you need to do to allow users to add and remove components from a placeholder using the Experience Editor?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Use dynamic placeholder."
+      },
+      {
+        "id": "A2",
+        "option": "Create a Placeholder setting item for that placeholder."
+      },
+      {
+        "id": "A3",
+        "option": "Make the user Admin."
+      },
+      {
+        "id": "A4",
+        "option":  "Use Content Manager to make Component editable."
+      }
+    ],
+    "correctAnswer" : "A2",
+    "feedback": "Creating a Placeholder setting item for that placeholder will allow users to edit components."
+  },
+  {
+    "id": 18,
+    "answerType": "radio",
+    "question": "How to fix Layout not found error page?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Create a Placeholder setting item for the layout."
+      },
+      {
+        "id": "A2",
+        "option": "Define layout in the presentation details."
+      },
+      {
+        "id": "A3",
+        "option": "Add the appropriate View in the component settings"
+      },
+      {
+        "id": "A4",
+        "option":  "Correct the path for .cshtml file in the component settings."
+      }
+    ],
+    "correctAnswer" : "A2",
+    "feedback": "You will get this error when you request a page that has no layout defined in the presentation detail."
+  },
+  {
+    "id": 19,
+    "answerType": "radio",
+    "question": "What tools can I use to install Sitecore?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Manual or zip file, EXE, Scripts"
+      },
+      {
+        "id": "A2",
+        "option": "EXE"
+      },
+      {
+        "id": "A3",
+        "option": "Sitecore Rocks and SIM"
+      },
+      {
+        "id": "A4",
+        "option":  "Manual or zip file, Scripts, Sitecore Rocks, SIM, EXE"
+      }
+    ],
+    "correctAnswer" : "A4",
+    "feedback": "Sitecore can be installd by the following methods: Manual or sip file, Scripts, Sitecore Rocks, SIM, EXE."
+  },
+  {
+    "id": 20,
+    "answerType": "radio",
+    "question": "Where can Presentation Details be set?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Experience Editor (Design Mode), Content Editor, Template Manager, Sitecore Rocks"
+      },
+      {
+        "id": "A2",
+        "option": "Text Editor (Design Mode), Content Editor, Template Manager, Sitecore Rocks"
+      },
+      {
+        "id": "A3",
+        "option": "Document Editor (Design Mode), Content Editor, Template Manager, Sitecore Rocks"
+      },
+      {
+        "id": "A4",
+        "option":  "None of the above"
+      }
+    ],
+    "correctAnswer" : "A1",
+    "feedback": "Presentation detailed can be set by Experience Editor (Design Mode), Content Editor, Template Manager, Sitecore Rocks."
+  },
+  {
+    "id": 21,
+    "answerType": "radio",
+    "question": "What are the 3 folders in the physical path of the content folder that hosts the Sitecore application?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Website, data, text file"
+      },
+      {
+        "id": "A2",
+        "option": "Website and data"
+      },
+      {
+        "id": "A3",
+        "option": "Text file, data and ERM"
+      },
+      {
+        "id": "A4",
+        "option":  "Website, data, and database"
+      }
+    ],
+    "correctAnswer" : "A4",
+    "feedback": "Sitecore application requires Website, Data, Database folders."
+  },
+  {
+    "id": 22,
+    "answerType": "radio",
+    "question": "What are the SIM installation features?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Install any version of Sitecore from a repository of installers, Install modules and packages, Reinstall the same configuration."
+      },
+      {
+        "id": "A2",
+        "option": "Install any version of Sitecore from a repository of installers, Install modules and packages, Create a new configuration."
+      },
+      {
+        "id": "A3",
+        "option": "Install any version of Sitecore from a repository of installers, Install modules and packages, Reinstall a different configuration."
+      },
+      {
+        "id": "A4",
+        "option":  "None of the above"
+      }
+    ],
+    "correctAnswer" : "A1",
+    "feedback": ""
+  },
+  {
+    "id": 23,
+    "answerType": "radio",
+    "question": "What are the SIM Import/Export features?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Import an entire set of Sitecore databases with content and export to a new environment."
+      },
+      {
+        "id": "A2",
+        "option": "Export an entire set of Sitecore database with conetent and import to a new environment."
+      },
+      {
+        "id": "A3",
+        "option": "Export an three Sitecore databases with content and import to a new environment."
+      },
+      {
+        "id": "A4",
+        "option":  "None of the above"
+      }
+    ],
+    "correctAnswer" : "A2",
+    "feedback": ""
+  },
+  {
+    "id": 24,
+    "answerType": "radio",
+    "question": "Where is the license located?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Sitecore application root folder/Data/licenses/license.xml"
+      },
+      {
+        "id": "A2",
+        "option": "Sitecore application root folder/Website/App_Config/license.xml"
+      },
+      {
+        "id": "A3",
+        "option": "Sitecore application root folder/Data/license.xml"
+      },
+      {
+        "id": "A4",
+        "option":  "None of the above"
+      }
+    ],
+    "correctAnswer" : "A3",
+    "feedback": "The default path for license is: wwwroot/website name/Data/license.xml"
+  },
+  {
+    "id": 25,
+    "answerType": "radio",
+    "question": "Where does Master database publish items to?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "xDB"
+      },
+      {
+        "id": "A2",
+        "option": "The Web database"
+      },
+      {
+        "id": "A3",
+        "option": "The Core database"
+      },
+      {
+        "id": "A4",
+        "option":  "The Master database"
+      }
+    ],
+    "correctAnswer" : "A4",
+    "feedback": "Items are publised to the Web database from the Master database."
+  },
+  {
+    "id": 26,
+    "answerType": "radio",
+    "question": "Publishing synchronizes what between master and web databases?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Updating new items, updating edited items, updating deleted or unpublishable items."
+      },
+      {
+        "id": "A2",
+        "option": "Updating new items, updating edited items, removing deleted or unpublishable items."
+      },
+      {
+        "id": "A3",
+        "option": "Adding new items, updating edited items, removing deleted or unpublishable items."
+      },
+      {
+        "id": "A4",
+        "option":  "Updating new items, updating edited items, removing deleted or unpublishable items, updating index"
+      }
+    ],
+    "correctAnswer" : "A3",
+    "feedback": "It does not update index. Note that deleted or unpublishable items are removed by publishing."
+  },
+  {
+    "id": 27,
+    "answerType": "radio",
+    "question": "What are the types of publishing?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Delayed, Linear, and Dedicated"
+      },
+      {
+        "id": "A2",
+        "option": "Parallel, Linear, and Dedicated"
+      },
+      {
+        "id": "A3",
+        "option": "Delayed, Parallel, and Dedicated"
+      },
+      {
+        "id": "A4",
+        "option": "Synchronised, Delayed, Parallel and Dedicated"
+      }
+    ],
+    "correctAnswer" : "A3",
+    "feedback": "Exam tip: make sure to understand the difference between delayed, parallel and dedicated publishing types."
+  },
+  {
+    "id": 28,
+    "answerType": "radio",
+    "question": "Which of the following are the foundation pillars of a Web Content Management System?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Data Definition, Content, Presentation"
+      },
+      {
+        "id": "A2",
+        "option": "Data Definition, Content, Workflow"
+      },
+      {
+        "id": "A3",
+        "option": "Content, Workflow, Presentation"
+      },
+      {
+        "id": "A4",
+        "option": "Wordpress, Sitecore, Drupal"
+      }
+    ],
+    "correctAnswer" : "A1",
+    "feedback": "Data definition: Templates, Content: Items, Presentation: layouts and components."
+  },
+  {
+    "id": 29,
+    "answerType": "radio",
+    "question": "What is a General Link field used for?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "To save the URL to use to render a particular item."
+      },
+      {
+        "id": "A2",
+        "option": "To store a link to a presentation component."
+      },
+      {
+        "id": "A3",
+        "option": "To store the contents of an anchor tag."
+      },
+      {
+        "id": "A4",
+        "option": "To keep a reference to one or more items in the tree."
+      }
+    ],
+    "correctAnswer" : "A3",
+    "feedback": "Exam tip: Make sure to understand what General Link field does."
+  },
+  {
+    "id": 30,
+    "answerType": "radio",
+    "question": "To take advantage of Sitecore's integrated marketing & analytics capabilities, what do you need to implement?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Experience Analytics"
+      },
+      {
+        "id": "A2",
+        "option": "Experience Automation"
+      },
+      {
+        "id": "A3",
+        "option": "Sitecore Marketing Cloud"
+      },
+      {
+        "id": "A4",
+        "option": "Experience Database"
+      }
+    ],
+    "correctAnswer" : "A4",
+    "feedback": ""
+  },
+  {
+    "id": 31,
+    "answerType": "radio",
+    "question": "How can you handle more than one input form on a controller rendering in Sitecore?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Cannot handle more than one form unless using View Renderings."
+      },
+      {
+        "id": "A2",
+        "option": "Use Sitecore.Ajax.GetFormData()."
+      },
+      {
+        "id": "A3",
+        "option": "Create an extension method invoking the FormHandler() and Use Ajax.BeginForm() and specify the controller and action."
+      },
+      {
+        "id": "A4",
+        "option": "Only Use Ajax.BeginForm() and specify the controller and action."
+      }
+    ],
+    "correctAnswer" : "A3",
+    "feedback": ""
+  },
+  {
+    "id": 32,
+    "answerType": "radio",
+    "question": "Why would you create the Visual Studio outside the webroot?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "The solution becomes more portable."
+      },
+      {
+        "id": "A2",
+        "option": "It is required if you want to use source control."
+      },
+      {
+        "id": "A3",
+        "option": "Builds are faster outsite the webroot."
+      },
+      {
+        "id": "A4",
+        "option": "It eliminates the need to deploy code changes."
+      }
+    ],
+    "correctAnswer" : "A1",
+    "feedback": ""
+  },
+  {
+    "id": 33,
+    "answerType": "radio",
+    "question": "What is the purpose of a Field Editor?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "To enable edition in the Experience Editor."
+      },
+      {
+        "id": "A2",
+        "option": "To allow editors to change the field type."
+      },
+      {
+        "id": "A3",
+        "option": "To open the Rich text editor for a field."
+      },
+      {
+        "id": "A4",
+        "option": "To opens a pop up where fields are edited."
+      }
+    ],
+    "correctAnswer" : "A4",
+    "feedback": ""
+  },
+  {
+    "id": 34,
+    "answerType": "radio",
+    "question": "Which of the following are reasons for using field types in Sitecore?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "To define the raw value stored in the database, to determine which editor control will be used in the authoring tools, to determin the API field class used in code."
+      },
+      {
+        "id": "A2",
+        "option": "To define the raw value stored in the database, to determine which editor control will be used in the authoring tools, to determin EXE class used in code."
+      },
+      {
+        "id": "A3",
+        "option": "To define the default value stored in the database, to determine which editor control will be used in the authoring tools, to determin the API field class used in code."
+      },
+      {
+        "id": "A4",
+        "option": "To define the default value stored in the database, to determine which values will be used in the authoring tools, to determin the API field class used in code."
+      }
+    ],
+    "correctAnswer" : "A1",
+    "feedback": ""
+  },
+  {
+    "id": 35,
+    "answerType": "radio",
+    "question": "What is Sitecore's easy-to-use authoring tool and what functionality does it provide?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "The Development Editor provides editing and designing functionality."
+      },
+      {
+        "id": "A2",
+        "option": "The Experience Editor provides editing and designing functionality."
+      },
+      {
+        "id": "A3",
+        "option": "The Content Editor provides editing and designing functionality."
+      },
+      {
+        "id": "A4",
+        "option": "The Experience Editor provides editing and database import/export functionality."
+      }
+    ],
+    "correctAnswer" : "A2",
+    "feedback": ""
+  },
+  {
+    "id": 36,
+    "answerType": "radio",
+    "question": "Which interface would an author use to see and edit items in a tree structure?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "The Development Editor"
+      },
+      {
+        "id": "A2",
+        "option": "The Experience Editor"
+      },
+      {
+        "id": "A3",
+        "option": "The Content Editor"
+      },
+      {
+        "id": "A4",
+        "option": "The Experiment Editor"
+      }
+    ],
+    "correctAnswer" : "A2",
+    "feedback": ""
+  },
+  {
+    "id": 37,
+    "answerType": "radio",
+    "question": "What does an unversioned field contain?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Data for all versions in all languages"
+      },
+      {
+        "id": "A2",
+        "option": "Onve version of the data per language"
+      },
+      {
+        "id": "A3",
+        "option": "The latest version of the data"
+      },
+      {
+        "id": "A4",
+        "option": "The latest published version of the data"
+      }
+    ],
+    "correctAnswer" : "A2",
+    "feedback": "A shared field contains a single version of the data for all versions in all languages. An unversioned field contains one version of the data per langauage."
+  },
+  {
+    "id": 38,
+    "answerType": "radio",
+    "question": "When would you use the DisableWebEdit parameter when rendering a field?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "When the field has a default value."
+      },
+      {
+        "id": "A2",
+        "option": "When the field is rendered from the rendering model."
+      },
+      {
+        "id": "A3",
+        "option": "When rendering a field inside the <title> tag in the <head> of HTML"
+      },
+      {
+        "id": "A4",
+        "option": "When rendering an image field"
+      }
+    ],
+    "correctAnswer" : "A3",
+    "feedback": ""
+  },
+  {
+    "id": 39,
+    "answerType": "radio",
+    "question": "How do I display the content of a fied in code?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "@Html.Sitecore().Field(<field name>)"
+      },
+      {
+        "id": "A2",
+        "option": "@Html.Sitecore().Parameter(<field name>)"
+      },
+      {
+        "id": "A3",
+        "option": "@Html.Sitecore().Raw(<field name>)"
+      },
+      {
+        "id": "A4",
+        "option": "@Html.Sitecore().GetItem(<field name>)"
+      }
+    ],
+    "correctAnswer" : "A1",
+    "feedback": ""
+  },
+  {
+    "id": 40,
+    "answerType": "radio",
+    "question": "What can I use to translate fields and help texts in the Sitecore client?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Sitecore Dictionary entries"
+      },
+      {
+        "id": "A2",
+        "option": "Sitecore Multilingual Function"
+      },
+      {
+        "id": "A3",
+        "option": "Unversioned feild"
+      },
+      {
+        "id": "A4",
+        "option": "Sitecore rocks"
+      }
+    ],
+    "correctAnswer" : "A1",
+    "feedback": ""
+  },
+  {
+    "id": 41,
+    "answerType": "radio",
+    "question": "When would you set languageEmbedding option to never?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Never set languageEmbedding opiton to never"
+      },
+      {
+        "id": "A2",
+        "option": "The site is not multilingual"
+      },
+      {
+        "id": "A3",
+        "option": "Alawys set languageEmbedding opiton for security"
+      },
+      {
+        "id": "A4",
+        "option": "Sitecore doesn't have languageEmbedding option."
+      }
+    ],
+    "correctAnswer" : "A2",
+    "feedback": ""
+  },
+  {
+    "id": 42,
+    "answerType": "radio",
+    "question": "How would you display the direct children of the Home item?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Use Sitecore.Context.Site.StartPath and invoke GetChildren()"
+      },
+      {
+        "id": "A2",
+        "option": "Use Sitecore.Context.Site.HomePath and invoke GetChildren()"
+      },
+      {
+        "id": "A3",
+        "option": "Use GetChildren(<path to home>)"
+      },
+      {
+        "id": "A4",
+        "option": "Use GetChildren(<item id of home>)"
+      }
+    ],
+    "correctAnswer" : "A1",
+    "feedback": "Sitecore.Context.Site.StartPath retrieves the Home item. GetChildren() will retrieve the direct children of the Home items."
+  },
+  {
+    "id": 43,
+    "answerType": "radio",
+    "question": "What is the preferred way to modify the web.config",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Add web.config in the visual studio project, update it and publish"
+      },
+      {
+        "id": "A2",
+        "option": "Use .config file in App_Config/Include"
+      },
+      {
+        "id": "A3",
+        "option": "Use Sitecore Rocks configuration manager"
+      },
+      {
+        "id": "A4",
+        "option": "Use Sitecore admin configuration manager"
+      }
+    ],
+    "correctAnswer" : "A2",
+    "feedback": ""
+  },
+  {
+    "id": 44,
+    "answerType": "radio",
+    "question": "Config changes get added alphabetically by default. How can I change it?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Use <loadOrder>"
+      },
+      {
+        "id": "A2",
+        "option": "Cannot be changed"
+      },
+      {
+        "id": "A3",
+        "option": "Use Sitecore Rocks configuration manager"
+      },
+      {
+        "id": "A4",
+        "option": "Use Sitecore admin configuration manager"
+      }
+    ],
+    "correctAnswer" : "A1",
+    "feedback": ""
+  },
+  {
+    "id": 45,
+    "answerType": "radio",
+    "question": "What is the CMS parts of Sitecore?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Sitecore Experience"
+      },
+      {
+        "id": "A2",
+        "option": "xManagement"
+      },
+      {
+        "id": "A3",
+        "option": "xDB"
+      },
+      {
+        "id": "A4",
+        "option": "Sitecore Marketing"
+      }
+    ],
+    "correctAnswer" : "A2",
+    "feedback": ""
+  },
+  {
+    "id": 46,
+    "answerType": "radio",
+    "question": "What item setting needs to be specified for authors to be able to add content?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Standard Values"
+      },
+      {
+        "id": "A2",
+        "option": "Insert Options"
+      },
+      {
+        "id": "A3",
+        "option": "Allowed Renderings"
+      },
+      {
+        "id": "A4",
+        "option": "Content Insert Options"
+      }
+    ],
+    "correctAnswer" : "A2",
+    "feedback": ""
+  },
+  {
+    "id": 47,
+    "answerType": "radio",
+    "question": "What do you need to create to enable Dynamic Binding?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Standard Values"
+      },
+      {
+        "id": "A2",
+        "option": "Insert Options"
+      },
+      {
+        "id": "A3",
+        "option": "Allowed Renderings"
+      },
+      {
+        "id": "A4",
+        "option": "Placeholder"
+      }
+    ],
+    "correctAnswer" : "A4",
+    "feedback": ""
+  },
+  {
+    "id": 48,
+    "answerType": "radio",
+    "question": "What parts of the page are typically added using Static Binding?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "View Rendering items"
+      },
+      {
+        "id": "A2",
+        "option": "Scaffolding, like headers and footers"
+      },
+      {
+        "id": "A3",
+        "option": "Static content such as Images"
+      },
+      {
+        "id": "A4",
+        "option": "<title> in <header>"
+      }
+    ],
+    "correctAnswer" : "A2",
+    "feedback": "It is a best practice to avoid static binding even for header and footer as the requimenets may change to make them editable."
+  },
+  {
+    "id": 49,
+    "answerType": "radio",
+    "question": "What part of presentation details applies to all versions of an item?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Final Layout"
+      },
+      {
+        "id": "A2",
+        "option": "Shared Layout"
+      },
+      {
+        "id": "A3",
+        "option": "Standard Layout"
+      },
+      {
+        "id": "A4",
+        "option": "Rendering Layout"
+      }
+    ],
+    "correctAnswer" : "A2",
+    "feedback": "Shared Layout is stored in _Renderings of presentation details while final layout is in _Final Renderings."
+  },
+  {
+    "id": 50,
+    "answerType": "radio",
+    "question": "Why would you use dynamic placeholders",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "To reuse a component containing placeholders."
+      },
+      {
+        "id": "A2",
+        "option": "To reuse a component not containing placeholders."
+      },
+      {
+        "id": "A3",
+        "option": "To reuse a component with static binding."
+      },
+      {
+        "id": "A4",
+        "option": "To reuse a component with dynamic binding."
+      }
+    ],
+    "correctAnswer" : "A1",
+    "feedback": ""
+  },
+  {
+    "id": 51,
+    "answerType": "radio",
+    "question": "What does the item Resolver do?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Maps a URL to an item in the contnet tree."
+      },
+      {
+        "id": "A2",
+        "option": "Generate URL based on the site configuration."
+      },
+      {
+        "id": "A3",
+        "option": "Retrieves an URL of an item."
+      },
+      {
+        "id": "A4",
+        "option": "Update items when published from Master to Web."
+      }
+    ],
+    "correctAnswer" : "A1",
+    "feedback": ""
+  },
+  {
+    "id": 52,
+    "answerType": "radio",
+    "question": "How would you retrieve the URL of an item?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Use LinkManager.GetItem()"
+      },
+      {
+        "id": "A2",
+        "option": "Use LinkManager.GetItemUrl()"
+      },
+      {
+        "id": "A3",
+        "option": "Use LinkManager.GetUrl()"
+      },
+      {
+        "id": "A4",
+        "option": "Use LinkManager.GetItemPath()"
+      }
+    ],
+    "correctAnswer" : "A2",
+    "feedback": "To retrieve items: Item item = Sitecore.Context.Item; var url = Sitecore.Links.LinkManager.GetItemUrl(item);"
+  },
+  {
+    "id": 53,
+    "answerType": "radio",
+    "question": "Which search providers does Sitecore ship with by default?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Solr and Elastic Search"
+      },
+      {
+        "id": "A2",
+        "option": "Solr and Azure Search"
+      },
+      {
+        "id": "A3",
+        "option": "Solar and Azure Search"
+      },
+      {
+        "id": "A4",
+        "option": "Only Solr"
+      }
+    ],
+    "correctAnswer" : "A2",
+    "feedback": "Sitecore 9.0 and above ships with Azure Search in addition to Solr."
+  },
+  {
+    "id": 54,
+    "answerType": "radio",
+    "question": "What happens when an item inside a bucket is not bucketable?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Cannot create an item."
+      },
+      {
+        "id": "A2",
+        "option": "Item is not hidden."
+      },
+      {
+        "id": "A3",
+        "option": "Become bucketable item and hidden."
+      },
+      {
+        "id": "A4",
+        "option": "Pop up option to make the item bucketable appears."
+      }
+    ],
+    "correctAnswer" : "A2",
+    "feedback": "The item is not hidden. It appears as a normal child item"
+  },
+  {
+    "id": 55,
+    "answerType": "radio",
+    "question": "Which method is not supported by Sitecore's implementation of IQueryable<T>?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "GetResults"
+      },
+      {
+        "id": "A2",
+        "option": "Sort"
+      },
+      {
+        "id": "A3",
+        "option": "GroupBy"
+      },
+      {
+        "id": "A4",
+        "option": "Slice"
+      }
+    ],
+    "correctAnswer" : "A3",
+    "feedback": "Methods such as GroupBy, Aggregate and Sum are not supported"
+  },
+  {
+    "id": 56,
+    "answerType": "radio",
+    "question": "What happens if a role denies an access right and another one allows it?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Allowed"
+      },
+      {
+        "id": "A2",
+        "option": "Results in error"
+      },
+      {
+        "id": "A3",
+        "option": "Denied"
+      },
+      {
+        "id": "A4",
+        "option": "Sitecore does not allow this scenario to happen"
+      }
+    ],
+    "correctAnswer" : "A3",
+    "feedback": "Deny always taks priority."
+  },
+  {
+    "id": 57,
+    "answerType": "radio",
+    "question": "Where can I check the effective permission of an account?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Access viewer"
+      },
+      {
+        "id": "A2",
+        "option": "Identity and access manager"
+      },
+      {
+        "id": "A3",
+        "option": "Access manager"
+      },
+      {
+        "id": "A4",
+        "option": "Sitecore Rocks"
+      }
+    ],
+    "correctAnswer" : "A1",
+    "feedback": ""
+  },
+  {
+    "id": 58,
+    "answerType": "radio",
+    "question": "What happens if an item version is not in a final workflow state?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "No automatic versioning and version is not publishable."
+      },
+      {
+        "id": "A2",
+        "option": "Automatic versioning but version is not publishable."
+      },
+      {
+        "id": "A3",
+        "option": "Publishable without versioning."
+      },
+      {
+        "id": "A4",
+        "option": "Content author cannot edit the content through Experience Editor."
+      }
+    ],
+    "correctAnswer" : "A1",
+    "feedback": ""
+  },
+  {
+    "id": 59,
+    "answerType": "radio",
+    "question": "How can you make it easier to communicate issues with Sitecore Support?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Use the Support Package Generator from the Sitecore Marketplace."
+      },
+      {
+        "id": "A2",
+        "option": "Provide the phone number."
+      },
+      {
+        "id": "A3",
+        "option": "Zip the App_Data folder and attached to the Support ticket."
+      },
+      {
+        "id": "A4",
+        "option": "Use Sitecore Rocks."
+      }
+    ],
+    "correctAnswer" : "A1",
+    "feedback": ""
+  },
+  {
+    "id": 60,
+    "answerType": "radio",
+    "question": "What is the best way to source control Sitecore items?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Export as a zip file and add to the repo."
+      },
+      {
+        "id": "A2",
+        "option": "Use Sitecore Rocks."
+      },
+      {
+        "id": "A3",
+        "option": "By Serialising them."
+      },
+      {
+        "id": "A4",
+        "option": "Take SQL Server snapshot after deployment."
+      }
+    ],
+    "correctAnswer" : "A3",
+    "feedback": "You can use tools like TDS or Unicorn to serialise items and source control them."
+  }
+  ]
+}
