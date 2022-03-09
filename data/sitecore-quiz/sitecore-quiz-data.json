@@ -647,7 +647,7 @@
         "option":  "The Master database"
       }
     ],
-    "correctAnswer" : "A4",
+    "correctAnswer" : "A2",
     "feedback": "Items are publised to the Web database from the Master database."
   },
   {
@@ -922,7 +922,7 @@
         "option": "The Experiment Editor"
       }
     ],
-    "correctAnswer" : "A2",
+    "correctAnswer" : "A3",
     "feedback": ""
   },
   {
@@ -1524,6 +1524,56 @@
     ],
     "correctAnswer" : "A3",
     "feedback": "You can use tools like TDS or Unicorn to serialise items and source control them."
+  },
+  {
+    "id": 61,
+    "answerType": "radio",
+    "question": "When you are working with a multisite implementation, what is the recommended practice for creating each site’s tree structure?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Use the default Sites folder to store each site folder, and create a Home item for each site within the folder."
+      },
+      {
+        "id": "A2",
+        "option": "Put all website content under the default Home item, prefixing the content with the name for each website."
+      },
+      {
+        "id": "A3",
+        "option": "Create the content for each site anywhere within the content tree and have it sorted by the <sites> section of Sitecore.config."
+      },
+      {
+        "id": "A4",
+        "option": "Create a specific site definition configuration, a folder for each site under the Content item, and a Home item for each site within the folder."
+      }
+    ],
+    "correctAnswer" : "A4",
+    "feedback": ""
+  },
+  {
+    "id": 62,
+    "answerType": "radio",
+    "question": "Which option will allow users to create unique version of the field value per language?",
+    "answerOptions": [
+      {
+        "id": "A1",
+        "option": "Versioned"
+      },
+      {
+        "id": "A2",
+        "option": "Shared"
+      },
+      {
+        "id": "A3",
+        "option": "Unversioned"
+      },
+      {
+        "id": "A4",
+        "option": "Single Versioned"
+      }
+    ],
+    "correctAnswer" : "A3",
+    "feedback": "UnversionedFields Table has no version column, so its unique per language"
   }
   ]
 }
